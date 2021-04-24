@@ -1,0 +1,122 @@
+@media (min-width: 900px) {
+    .container{
+        max-width: 1280px;
+        margin: 0 auto;
+        padding: 0 60px 0 80px ;
+    }
+    /*NAVBAR SECTION*/
+    .navbar{
+        padding: 30px 60px 40px 80px;
+    }
+    .navbar-nav{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .navbar-nav.toggler{
+        position: inherit;
+    }
+    .navbar-nav-item{
+        display: inline-block;
+        margin-bottom: 0;
+        margin-right: 100px;
+    }
+    .navbar-nav-item:last-child{
+        margin-right: 0;
+    }
+    .navbar-nav-link{
+        font-size: 20px;
+    }
+    .navbar-toggler{
+        display: none;
+    }
+    /*HEADER SECTION*/
+    .header{
+        flex-direction: row;
+        padding-left: 150px;
+    }
+    .header-img-wrapper{
+        width: 82%;
+        margin-bottom: 37px;
+    }
+    .header-title{
+        font-size: 32px;
+        top: 80px;
+        left: 50px;
+    }
+    .header-link{
+        font-size: 22px;
+        top: 240px;
+        left: 115px;
+    }
+    .header-decor-block{
+        width: 100px;
+        height: 347px;
+        align-self: flex-start;
+    }
+    .header-desc{
+        padding: 0 100px 0 30px;
+        font-size: 25px;
+    }
+    /*SERVICES SECTION*/
+    .services{
+        padding: 0 200px;
+        margin-bottom: 100px;
+    }
+    .service-item{
+        width: 33%;
+    }
+    /*ADDRESS SECTION*/
+    .address{
+        width: 579px;
+        padding: 30px;
+        margin-bottom: 100px;
+    }
+    .address-map{
+        width: 525px;
+        height: 212px;
+    }
+    .address-icon{
+        top: 75px;
+        left: 265px;
+    }
+    .adress-text{
+        font-size: 22px;
+    }
+    /*CONTACTS SECTION*/
+    .contacts{
+        border: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        height: 400px;
+        padding: 0 124px 6px 175px;
+    }
+    .contacts-title{
+        font-size: 45px;
+        text-align: left;
+        width: 100%;
+    }
+    .contact-item{
+        flex-direction: column;
+        height: 223px;
+    }
+    .contact-icon{
+        margin-right: 0;
+        margin-bottom: 35px;
+        width: 45px;
+        height: 45px;
+    }
+    .contact-text{
+        display: block;
+        font-size: 25px;
+        color: #ffffff;
+        font-family: Montserrat, sans-serif;
+        margin-bottom: 10px;
+    }
+    .contact-info{
+        font-size: 25px;
+        margin-bottom: 7px;
+    }
+}
